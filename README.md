@@ -16,7 +16,7 @@
 </p>
 
 ## 👨‍💻 **About Me**
-🔹 **Product Owner and Full Stack Developer** with over **10 years of experience** delivering high-impact digital products across technology, finance, and retail sectors.  
+🔹 **Product Owner and Full Stack Developer** with over **19 years of experience** delivering high-impact digital products across technology, finance, and retail sectors.  
 🛠️ Hands-on experience with **Java, Node.js, HTML, CSS, JavaScript**, and leadership in **ERP, CRM, Web Portals, and Mobile** projects.  
 📈 Strong background in **SEO and paid traffic strategies**, boosting customer acquisition and digital engagement.  
 👥 Leader of agile squads focused on retention, NPS, and growth KPIs.  
