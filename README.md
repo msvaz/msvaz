@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Marcia+vaz!+👋;Product+Owner+%7C+Full+Stack+Dev+%7C+SEO+Specialist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Marcia+Vaz!+👋;%7CProduct+Owner+%7C+Full+Stack+Dev+%7C+SEO+Specialist" alt="Typing SVG" />
 </p>
 
 <h3 align="center">🚀 Product Owner | Full Stack Developer | Growth Strategist</h3>
