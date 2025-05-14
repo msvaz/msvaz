@@ -1,42 +1,38 @@
- 
-<h1 align="center">Hey, I'm Danilo Carvalho! 👋</h1>
-<h3 align="center">🚀 Senior Full Stack Developer | Product Manager | Tech Leader</h3>
+ <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Marcia+vaz!+👋;Product+Owner+%7C+Full+Stack+Dev+%7C+SEO+Specialist" alt="Typing SVG" />
+</p>
+
+<h3 align="center">🚀 Product Owner | Full Stack Developer | Growth Strategist</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Senior%20Developer-%F0%9F%92%BB-darkgreen" />
-  <img src="https://img.shields.io/badge/Java%20Guru-%E2%98%95-orange" />
-  <img src="https://img.shields.io/badge/Software%20Architect-%F0%9F%92%BB-red" />
-  <img src="https://img.shields.io/badge/AI%20Enthusiast-%F0%9F%A7%96-lightblue" />
-  <img src="https://img.shields.io/badge/Product%20Management-%F0%9F%92%A1-blue" />
-  <img src="https://img.shields.io/badge/Agile%20Leader-%F0%9F%9A%80-yellow" />
+  <img src="https://img.shields.io/badge/Product%20Owner-%F0%9F%92%A1-blue" />
+  <img src="https://img.shields.io/badge/Java-%E2%98%95-brightgreen" />
+  <img src="https://img.shields.io/badge/Node.js-%F0%9F%92%BB-brightgreen" />
+  <img src="https://img.shields.io/badge/Python-%F0%9F%90%8D-blue" />
+  <img src="https://img.shields.io/badge/SEO%20%26%20Paid%20Media-%F0%9F%94%A5-orange" />
+  <img src="https://img.shields.io/badge/User%20Centric-%F0%9F%92%AD-purple" />
+  <img src="https://img.shields.io/badge/Agile%20Squad%20Leader-%F0%9F%9A%80-yellow" />
   <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
 </p>
 
-
 ## 👨‍💻 **About Me**
-🔹 **Senior Full Stack Developer & Product Manager** with over **19 years of experience** leading software development, agile transformations, and **data-driven strategies**.  
-💡 **Specialized in:** Digital Product Strategy, Agile Frameworks (Scrum, Kanban, Lean Inception), Full Stack Development, Cloud & DevOps.  
-🚀 **Founder of [Oak Genius](https://oakgenius.com/)** – delivering **freelance tech consulting** for startups and enterprises.  
-📊 **Data-Driven & AI Enthusiast** – Leveraging AI & analytics for smarter business decisions.  
-📍 **Currently at Suzano** (Product) | Ex-**Hospital Albert Einstein, RB Capital, Brink's, Oi, RNP, BNDES, Nokia**.  
-⚠️ **Disclaimer:** This is my new GitHub profile, my previous one was deactivated!  
+🔹 **Product Owner and Full Stack Developer** with over **10 years of experience** delivering high-impact digital products across technology, finance, and retail sectors.  
+🛠️ Hands-on experience with **Java, Node.js, HTML, CSS, JavaScript**, and leadership in **ERP, CRM, Web Portals, and Mobile** projects.  
+📈 Strong background in **SEO and paid traffic strategies**, boosting customer acquisition and digital engagement.  
+👥 Leader of agile squads focused on retention, NPS, and growth KPIs.  
+📍 Led products in companies like **Stone, RB Capital, Bradesco Seguros, Oi, Supergasbras**, among others.
 
 ---
 
-## 🏆 **Certifications & Achievements**
-### 📌 **Cloud, DevOps & Software Development**
-- **Java Certified Programmer - Oracle**
-- **ITIL V3 & ISO 20000 Certification** - EXIN
-- **COBIT Foundation** - ISACA
+## 🏆 Certifications & Skills
 
-### 📌 **Product Management & Agile**
-- **Professional Scrum Product Owner (PSPO I)** - Scrum.org
-- **Professional Scrum Master (PSM I)** - Scrum.org
-- **PMP - Project Management Professional** - PMI
-- **Product Roadmapping, Product Strategy, Product-Led Growth** - Product School
-- **Discovery e Estratégia em Gestão de Produto** - PM3
+- **Product Discovery & Strategy** – PM3, Product School  
+- **Scrum and Kanban Frameworks** – Scrum.org, Agile Alliance  
+- **SEO & Google Ads Specialist** – Google Academy  
+- **Design Thinking & UX Research** – IDEO + Independent Courses  
+- **Served over 14,000 clients with ERP solutions**  
+- **Key metrics impacted**: +67% customer acquisition, +33% revenue growth
 
-✅ **More than 40 certifications in Product, Tech & Leadership!**  
 
 ---
 
@@ -57,9 +53,9 @@
 ## 📫 **Let's Connect**
 🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
 <p>
-  <a href="https://www.linkedin.com/in/contato.danilolc" target="_blank" > <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/marcia-svaz" target="_blank" > <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://discord.gg/seu-discord" target="_blank"> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="mailto:dancarvofc@gmail.com" > <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="mailto:marciasantanavaz@gmail.com" > <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
 </p>
 
 
@@ -72,8 +68,8 @@ If you like what I do, consider supporting me! ☕🚀
 
 ## 📈 **GitHub Analytics**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dancarvofc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dancarvofc&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=msvaz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msvaz&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
 
 ## 🏆 **LeetCode Statistics**
