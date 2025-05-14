@@ -25,8 +25,8 @@
 ---
 
 ## 🏆 Certifications & Skills
-
-- **Product Discovery & Strategy** – PM3, Product School  
+- **Java Certified Programmer** – Oracle  
+- **Product Management, Discovery & Strategy** – PM3, Product School  
 - **Scrum and Kanban Frameworks** – Scrum.org, Agile Alliance  
 - **SEO & Google Ads Specialist** – Google Academy  
 - **Design Thinking & UX Research** – IDEO + Independent Courses  
