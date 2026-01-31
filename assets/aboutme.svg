@@ -26,7 +26,7 @@
     <rect x="70.5" y="60.5" width="1659" height="979" fill="none" stroke="#2b1646" stroke-width="4"/>
 
     <!-- Área interna -->
-    <rect x="82" y="72" width="1636" height="956" fill="#f2e8ff"/>
+    <rect x="82" y="72" width="1636" height="956" fill="#A688AE"/>
     <rect x="82.5" y="72.5" width="1635" height="955" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75"/>
     <rect x="88.5" y="78.5" width="1623" height="943" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
 
@@ -62,7 +62,7 @@
     <text x="450" y="203" class="font menu">View</text>
 
     <!-- Conteúdo (ENORME) -->
-    <rect x="110" y="238" width="1580" height="720" fill="#A587AE"/>
+    <rect x="110" y="238" width="1580" height="720" fill="#A688AE"/>
     <rect x="110.5" y="238.5" width="1579" height="719" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
     <!-- TEXTO COM ESPAÇO DE VERDADE -->
