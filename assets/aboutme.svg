@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <!-- Fundo do SVG: transparente -->
+  <defs>
+    <style>
+      /* UMA fonte só pra tudo */
+      .font {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        fill: #2b1646;
+      }
+      .title { font-size: 26px; font-weight: 700; }
+      .menu  { font-size: 20px; font-weight: 600; opacity: .9; }
+      .status{ font-size: 18px; opacity: .85; }
+      .content { font-size: 20px; font-weight: 600; opacity: .94; }
+      .contentSoft { font-size: 20px; font-weight: 600; opacity: .86; }
+      .pix { shape-rendering: crispEdges; }
+    </style>
+  </defs>
+
+  <g class="pix">
+    <!-- Janela (maior e retangular) -->
+    <rect x="90" y="60" width="1220" height="780" fill="#c9a7ff"/>
+    <rect x="90.5" y="60.5" width="1219" height="779" fill="none" stroke="#2b1646" stroke-width="3"/>
+
+    <!-- Área interna -->
+    <rect x="98" y="68" width="1204" height="764" fill="#f2e8ff"/>
+    <rect x="98.5" y="68.5" width="1203" height="763" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+    <rect x="102.5" y="72.5" width="1195" height="755" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
+
+    <!-- Titlebar (chapado) -->
+    <rect x="106" y="76" width="1188" height="66" fill="#b58bff"/>
+    <rect x="106.5" y="76.5" width="1187" height="65" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
+
+    <!-- Ícone -->
+    <rect x="120" y="92" width="34" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2" opacity="0.95"/>
+    <rect x="128" y="100" width="18" height="18" fill="#2b1646" opacity="0.22"/>
+
+    <!-- Título -->
+    <text x="170" y="118" class="font title">notebler</text>
+
+    <!-- Botões (quadrados) -->
+    <g transform="translate(1140, 90)">
+      <rect x="0"  y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="46" y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="92" y="0" width="40" height="34" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
+      <rect x="11" y="24" width="18" height="3" fill="#2b1646" opacity="0.8"/>
+      <rect x="58" y="8" width="16" height="16" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.8"/>
+      <path d="M104 9 L120 25 M120 9 L104 25" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.85"/>
+    </g>
+
+    <!-- Menu bar -->
+    <rect x="106" y="142" width="1188" height="46" fill="#d9c2ff"/>
+    <rect x="106.5" y="142.5" width="1187" height="45" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <text x="128" y="173" class="font menu">File</text>
+    <text x="200" y="173" class="font menu">Edit</text>
+    <text x="272" y="173" class="font menu">Format</text>
+    <text x="374" y="173" class="font menu">View</text>
+
+    <!-- Conteúdo (roxo bem clarinho, chapado, SEM LINHAS) -->
+    <rect x="118" y="202" width="1164" height="560" fill="#efe6ff"/>
+    <rect x="118.5" y="202.5" width="1163" height="559" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <!-- Texto organizado (mesma fonte em tudo) -->
+    <text x="145" y="242" class="font content">
+      <tspan x="145" dy="0">About me  ༼ つ ◕_◕ ༽つ</tspan>
+
+      <tspan x="145" dy="34"></tspan>
+
+      <tspan x="145" dy="28">Full Stack Engineer — 19+ years building systems that don’t panic in production.</tspan>
+
+      <tspan x="145" dy="34">• APIs &amp; integrations</tspan>
+      <tspan x="145" dy="28">• Clean architecture &amp; testing</tspan>
+      <tspan x="145" dy="28">• Observability (logs / metrics / traces)</tspan>
+      <tspan x="145" dy="28">• Deployments that behave</tspan>
+
+      <tspan x="145" dy="34"></tspan>
+
+      <tspan x="145" dy="28">Main game: Engineering (Java + Node.js)</tspan>
+      <tspan x="145" dy="28">Extra edge: Product thinking — ship with problem, impact, and metrics in mind.</tspan>
+
+      <tspan x="145" dy="34"></tspan>
+
+      <tspan x="145" dy="28">Stack:</tspan>
+      <tspan x="145" dy="28">• Full Stack: Java, JavaScript</tspan>
+      <tspan x="145" dy="28">• Front: React, Next.js, Angular</tspan>
+      <tspan x="145" dy="28">• Back: Node.js (Express/NestJS), Java (Spring Boot) — REST/GraphQL</tspan>
+      <tspan x="145" dy="28">• Data: PostgreSQL, Redis, MongoDB — S3, DynamoDB, Supabase</tspan>
+
+      <tspan x="145" dy="34"></tspan>
+
+      <tspan x="145" dy="28">Status: Open to work • Founder @ TDG Labs</tspan>
+
+      <tspan x="145" dy="34" class="contentSoft">Previous: Stone, Bradesco Seguros, Oi, Supergasbras, Optiva Inc, BNDES, Casa &amp; Video,</tspan>
+      <tspan x="145" dy="28" class="contentSoft">Montreal, Grupo Multi, Polícia Federal • Projects: FAPES</tspan>
+    </text>
+
+    <!-- Barra de status -->
+    <rect x="106" y="762" width="1188" height="58" fill="#d9c2ff"/>
+    <rect x="106.5" y="762.5" width="1187" height="57" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+    <text x="128" y="799" class="font status">Ln 1, Col 1</text>
+  </g>
+</svg>
