@@ -117,7 +117,13 @@
     <rect x="880.5" y="336.5" width="389" height="359" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
     <!-- IMAGEM DA PROTAGONISTA (skills_blank.png na mesma pasta do SVG) -->
-    <image x="888" y="344" width="374" height="344" href="https://raw.githubusercontent.com/msvaz/msvaz/main/assets/skills_blank.png"  preserveAspectRatio="xMidYMid slice"/>
+
+     <image x="888" y="344" width="374" height="344" href="https://github.com/msvaz/msvaz/blob/main/assets/skills_blank.png?raw=1" preserveAspectRatio="xMidYMid slice"/>
+
+    <!-- <image x="888" y="344" width="374" height="344" href="https://raw.githubusercontent.com/msvaz/msvaz/main/assets/skills_blank.png" preserveAspectRatio="xMidYMid slice"/> -->
+
+  
+    <!--   <image x="888" y="344" width="374" height="344" href="https://raw.githubusercontent.com/msvaz/msvaz/main/assets/skills_blank.png"  preserveAspectRatio="xMidYMid slice"/> -->
 
     <!-- Barra inferior webcam -->
     <rect x="880" y="646" width="390" height="50" fill="#2b1646" opacity="0.18"/>
