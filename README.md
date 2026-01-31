@@ -10,23 +10,8 @@
 ![About Me](https://raw.githubusercontent.com/msvaz/msvaz/main/assets/aboutme.svg)
 
 
-## 👨‍💻 **About Me**
-🔹 **Product Owner and Full Stack Developer** with over **19 years of experience** delivering high-impact digital products across technology, finance, and retail sectors.  
-🛠️ Hands-on experience with **Java, Node.js, HTML, CSS, JavaScript**, and leadership in **ERP, CRM, Web Portals, and Mobile** projects.  
-📈 Strong background in **SEO and paid traffic strategies**, boosting customer acquisition and digital engagement.  
-👥 Leader of agile squads focused on retention, NPS, and growth KPIs.  
-📍 Led products in companies like **Stone, RB Capital, Bradesco Seguros, Oi, Supergasbras**, among others.
 
----
 
-## 🏆 Certifications & Skills
-- **Java Certified Programmer** – Oracle  
-- **Product Management, Discovery & Strategy** – PM3, Product School  
-- **Scrum and Kanban Frameworks** – Scrum.org, Agile Alliance  
-- **SEO & Google Ads Specialist** – Google Academy  
-- **Design Thinking & UX Research** – IDEO + Independent Courses  
-- **Served over 14,000 clients with ERP solutions**  
-- **Key metrics impacted**: +67% customer acquisition, +33% revenue growth
 
 
 ---
