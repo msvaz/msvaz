@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <!-- Fundo do SVG: transparente -->
+  <defs>
+    <style>
+      .ui { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial; fill: #211533; }
+      .title { font-size: 26px; font-weight: 700; }
+      .menu  { font-size: 20px; font-weight: 600; opacity: .9; }
+      .status{ font-size: 18px; opacity: .85; }
+      .pix   { shape-rendering: crispEdges; }
+    </style>
+  </defs>
+
+  <!-- Janela (quadrada, estilo antigo) -->
+  <g class="pix">
+    <!-- Frame externo (quadrado) -->
+    <rect x="110" y="70" width="980" height="620" fill="#c9a7ff"/>
+    <!-- Borda externa (fechada 100%) -->
+    <rect x="110.5" y="70.5" width="979" height="619" fill="none" stroke="#2b1646" stroke-width="3"/>
+
+    <!-- Borda interna (dupla, vibe Win antigo) -->
+    <rect x="118" y="78" width="964" height="604" fill="#f2e8ff"/>
+    <rect x="118.5" y="78.5" width="963" height="603" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
+    <rect x="122.5" y="82.5" width="955" height="595" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
+
+    <!-- Titlebar (sem gradiente, “chapado”) -->
+    <rect x="126" y="86" width="948" height="64" fill="#b58bff"/>
+    <rect x="126.5" y="86.5" width="947" height="63" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
+
+    <!-- Ícone esquerdo (simples) -->
+    <rect x="140" y="101" width="34" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2" opacity="0.9"/>
+    <rect x="148" y="109" width="18" height="18" fill="#2b1646" opacity="0.25"/>
+
+    <!-- Título -->
+    <text x="190" y="130" class="ui title">notebler</text>
+
+    <!-- Botões (min/max/close) quadrados -->
+    <g transform="translate(940, 101)">
+      <rect x="0"  y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="46" y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="92" y="0" width="40" height="34" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
+      <!-- símbolos -->
+      <rect x="11" y="24" width="18" height="3" fill="#2b1646" opacity="0.8"/>
+      <rect x="58" y="8" width="16" height="16" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.8"/>
+      <path d="M104 9 L120 25 M120 9 L104 25" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.85"/>
+    </g>
+
+    <!-- Menu bar (chapado) -->
+    <rect x="126" y="150" width="948" height="46" fill="#d9c2ff"/>
+    <rect x="126.5" y="150.5" width="947" height="45" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <text x="148" y="181" class="ui menu">File</text>
+    <text x="220" y="181" class="ui menu">Edit</text>
+    <text x="292" y="181" class="ui menu">Format</text>
+    <text x="394" y="181" class="ui menu">View</text>
+
+    <!-- Área de conteúdo (SEM LINHAS, roxo bem clarinho chapado) -->
+    <rect x="138" y="210" width="924" height="404" fill="#efe6ff"/>
+    <rect x="138.5" y="210.5" width="923" height="403" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.25"/>
+
+    <!-- Barra de status -->
+    <rect x="126" y="626" width="948" height="48" fill="#d9c2ff"/>
+    <rect x="126.5" y="626.5" width="947" height="47" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+    <text x="148" y="657" class="ui status">Ln 1, Col 1</text>
+  </g>
+</svg>
