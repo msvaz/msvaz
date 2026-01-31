@@ -5,23 +5,10 @@
  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Bitcount+Single&weight=300&size=40&pause=1000&color=8A00C4&center=true&vCenter=true&width=1200&height=70&lines=Hi+!!!+My+name+is+Marcia+%F0%9F%98%8E;Welcome+to+my+GitHub+%E2%9C%8C%EF%B8%8F;Full+Stack+Engineer+%7C+Product+Strategist)](https://git.io/typing-svg)
 
+![Legenda da Imagem](assets/Final_1stBanner.png)
 
 
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
-
-<h3 align="center">🚀 Product Owner | Full Stack Developer | Growth Strategist</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Product%20Owner-%F0%9F%92%A1-blue" />
-  <img src="https://img.shields.io/badge/Java-%E2%98%95-brightgreen" />
-  <img src="https://img.shields.io/badge/Node.js-%F0%9F%92%BB-brightgreen" />
-  <img src="https://img.shields.io/badge/Python-%F0%9F%90%8D-blue" />
-  <img src="https://img.shields.io/badge/SEO%20%26%20Paid%20Media-%F0%9F%94%A5-orange" />
-  <img src="https://img.shields.io/badge/User%20Centric-%F0%9F%92%AD-purple" />
-  <img src="https://img.shields.io/badge/Agile%20Squad%20Leader-%F0%9F%9A%80-yellow" />
-  <img src="https://img.shields.io/badge/Data%20Driven-%F0%9F%93%88-green" />
-</p>
 
 ## 👨‍💻 **About Me**
 🔹 **Product Owner and Full Stack Developer** with over **19 years of experience** delivering high-impact digital products across technology, finance, and retail sectors.  
