@@ -62,7 +62,7 @@
     <text x="450" y="203" class="font menu">View</text>
 
     <!-- Conteúdo (ENORME) -->
-    <rect x="110" y="238" width="1580" height="720" fill="#efe6ff"/>
+    <rect x="110" y="238" width="1580" height="720" fill="#A587AE"/>
     <rect x="110.5" y="238.5" width="1579" height="719" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
     <!-- TEXTO COM ESPAÇO DE VERDADE -->
