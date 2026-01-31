@@ -1,115 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100">
   <defs>
     <style>
-      /* UMA fonte só pra tudo */
+      /* Uma fonte só */
       .font {
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
         fill: #2b1646;
       }
 
-      .title  { font-size: 26px; font-weight: 700; }
-      .menu   { font-size: 20px; font-weight: 600; opacity: .9; }
-      .status { font-size: 18px; opacity: .85; }
-
-      /* Texto do conteúdo mais confortável */
-      .content     { font-size: 19px; font-weight: 600; opacity: .94; }
-      .contentSoft { font-size: 19px; font-weight: 600; opacity: .82; }
-
       .pix { shape-rendering: crispEdges; }
+
+      /* UI */
+      .title  { font-size: 30px; font-weight: 700; }
+      .menu   { font-size: 22px; font-weight: 700; opacity: .9; }
+      .status { font-size: 20px; font-weight: 700; opacity: .85; }
+
+      /* Conteúdo: maior e bem legível */
+      .content     { font-size: 22px; font-weight: 700; opacity: .95; }
+      .contentSoft { font-size: 22px; font-weight: 700; opacity: .82; }
     </style>
   </defs>
 
   <g class="pix">
-    <!-- Janela (maior e retangular) -->
-    <rect x="90" y="60" width="1220" height="780" fill="#c9a7ff"/>
-    <rect x="90.5" y="60.5" width="1219" height="779" fill="none" stroke="#2b1646" stroke-width="3"/>
+    <!-- JANELA: maior e mais larga -->
+    <rect x="70" y="60" width="1660" height="980" fill="#c9a7ff"/>
+    <rect x="70.5" y="60.5" width="1659" height="979" fill="none" stroke="#2b1646" stroke-width="4"/>
 
     <!-- Área interna -->
-    <rect x="98" y="68" width="1204" height="764" fill="#f2e8ff"/>
-    <rect x="98.5" y="68.5" width="1203" height="763" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7"/>
-    <rect x="102.5" y="72.5" width="1195" height="755" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
+    <rect x="82" y="72" width="1636" height="956" fill="#f2e8ff"/>
+    <rect x="82.5" y="72.5" width="1635" height="955" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75"/>
+    <rect x="88.5" y="78.5" width="1623" height="943" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
 
     <!-- Titlebar -->
-    <rect x="106" y="76" width="1188" height="66" fill="#b58bff"/>
-    <rect x="106.5" y="76.5" width="1187" height="65" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
+    <rect x="96" y="86" width="1608" height="78" fill="#b58bff"/>
+    <rect x="96.5" y="86.5" width="1607" height="77" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
 
     <!-- Ícone -->
-    <rect x="120" y="92" width="34" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2" opacity="0.95"/>
-    <rect x="128" y="100" width="18" height="18" fill="#2b1646" opacity="0.22"/>
+    <rect x="116" y="106" width="40" height="40" fill="#e9dcff" stroke="#2b1646" stroke-width="2" opacity="0.95"/>
+    <rect x="126" y="116" width="20" height="20" fill="#2b1646" opacity="0.22"/>
 
     <!-- Título -->
-    <text x="170" y="118" class="font title">notebler</text>
+    <text x="176" y="138" class="font title">notebler</text>
 
     <!-- Botões -->
-    <g transform="translate(1140, 90)">
-      <rect x="0"  y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
-      <rect x="46" y="0" width="40" height="34" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
-      <rect x="92" y="0" width="40" height="34" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
-      <rect x="11" y="24" width="18" height="3" fill="#2b1646" opacity="0.8"/>
-      <rect x="58" y="8" width="16" height="16" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.8"/>
-      <path d="M104 9 L120 25 M120 9 L104 25" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.85"/>
+    <g transform="translate(1525, 106)">
+      <rect x="0"  y="0" width="46" height="40" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="54" y="0" width="46" height="40" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="108" y="0" width="46" height="40" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
+
+      <rect x="14" y="30" width="18" height="3" fill="#2b1646" opacity="0.8"/>
+      <rect x="68" y="10" width="18" height="18" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.8"/>
+      <path d="M122 12 L140 30 M140 12 L122 30" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.85"/>
     </g>
 
     <!-- Menu bar -->
-    <rect x="106" y="142" width="1188" height="46" fill="#d9c2ff"/>
-    <rect x="106.5" y="142.5" width="1187" height="45" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
-    <text x="128" y="173" class="font menu">File</text>
-    <text x="200" y="173" class="font menu">Edit</text>
-    <text x="272" y="173" class="font menu">Format</text>
-    <text x="374" y="173" class="font menu">View</text>
+    <rect x="96" y="164" width="1608" height="56" fill="#d9c2ff"/>
+    <rect x="96.5" y="164.5" width="1607" height="55" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
-    <!-- Conteúdo -->
-    <rect x="118" y="202" width="1164" height="560" fill="#efe6ff"/>
-    <rect x="118.5" y="202.5" width="1163" height="559" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+    <text x="126" y="203" class="font menu">File</text>
+    <text x="220" y="203" class="font menu">Edit</text>
+    <text x="314" y="203" class="font menu">Format</text>
+    <text x="450" y="203" class="font menu">View</text>
 
-    <!-- TEXTO: mais confortável (margens e espaçamento) -->
-    <!-- Margens internas: x=160 -->
-    <!-- Line-height padrão: 30 -->
-    <!-- Espaço entre blocos: 48 -->
-    <text x="160" y="246" class="font content">
-      <tspan x="160" dy="0">About me  ༼ つ ◕_◕ ༽つ</tspan>
+    <!-- Conteúdo (ENORME) -->
+    <rect x="110" y="238" width="1580" height="720" fill="#efe6ff"/>
+    <rect x="110.5" y="238.5" width="1579" height="719" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
-      <tspan x="160" dy="48"></tspan>
+    <!-- TEXTO COM ESPAÇO DE VERDADE -->
+    <!-- Margem interna: x=170 -->
+    <!-- Espaço entre linhas: 44 -->
+    <!-- Espaço entre blocos: 96 -->
+    <!-- Espaço abaixo do título: 110 -->
+    <text x="170" y="290" class="font content">
+      <tspan x="170" dy="0">About me  ༼ つ ◕_◕ ༽つ</tspan>
 
-      <tspan x="160" dy="30">Full Stack Engineer — 19+ years building systems that don’t panic in production.</tspan>
+      <!-- espaço grande abaixo do título -->
+      <tspan x="170" dy="110"></tspan>
 
-      <tspan x="160" dy="48"></tspan>
+      <tspan x="170" dy="44">Full Stack Engineer — 19+ years building systems that don’t panic in production.</tspan>
 
-      <tspan x="160" dy="30">• APIs &amp; integrations</tspan>
-      <tspan x="160" dy="30">• Clean architecture &amp; testing</tspan>
-      <tspan x="160" dy="30">• Observability (logs / metrics / traces)</tspan>
-      <tspan x="160" dy="30">• Deployments that behave</tspan>
+      <tspan x="170" dy="96"></tspan>
 
-      <tspan x="160" dy="48"></tspan>
+      <tspan x="170" dy="44">• APIs &amp; integrations</tspan>
+      <tspan x="170" dy="44">• Clean architecture &amp; testing</tspan>
+      <tspan x="170" dy="44">• Observability (logs / metrics / traces)</tspan>
+      <tspan x="170" dy="44">• Deployments that behave</tspan>
 
-      <tspan x="160" dy="30">Main game: Engineering (Java + Node.js)</tspan>
-      <tspan x="160" dy="30">Extra edge: Product thinking — ship with problem, impact, and metrics in mind.</tspan>
+      <tspan x="170" dy="96"></tspan>
 
-      <tspan x="160" dy="48"></tspan>
+      <tspan x="170" dy="44">Main game: Engineering (Java + Node.js)</tspan>
+      <tspan x="170" dy="44">Extra edge: Product thinking — ship with problem, impact, and metrics in mind.</tspan>
 
-      <tspan x="160" dy="30">Stack:</tspan>
-      <tspan x="160" dy="30">• Full Stack: Java, JavaScript</tspan>
-      <tspan x="160" dy="30">• Front: React, Next.js, Angular</tspan>
-      <tspan x="160" dy="30">• Back: Node.js (Express/NestJS), Java (Spring Boot) — REST/GraphQL</tspan>
-      <tspan x="160" dy="30">• Data: PostgreSQL, Redis, MongoDB — S3, DynamoDB, Supabase</tspan>
+      <tspan x="170" dy="96"></tspan>
 
-      <tspan x="160" dy="48"></tspan>
+      <tspan x="170" dy="44">Stack:</tspan>
+      <tspan x="170" dy="44">• Full Stack: Java, JavaScript</tspan>
+      <tspan x="170" dy="44">• Front: React, Next.js, Angular</tspan>
+      <tspan x="170" dy="44">• Back: Node.js (Express/NestJS), Java (Spring Boot) — REST/GraphQL</tspan>
+      <tspan x="170" dy="44">• Data: PostgreSQL, Redis, MongoDB — S3, DynamoDB, Supabase</tspan>
 
-      <tspan x="160" dy="30">Status: Open to work • Founder @ TDG Labs</tspan>
+      <tspan x="170" dy="96"></tspan>
 
-      <tspan x="160" dy="48"></tspan>
+      <tspan x="170" dy="44">Status: Open to work • Founder @ TDG Labs</tspan>
 
-      <tspan x="160" dy="30" class="contentSoft">
+      <tspan x="170" dy="96"></tspan>
+
+      <tspan x="170" dy="44" class="contentSoft">
         Previous: Stone, Bradesco Seguros, Oi, Supergasbras, Optiva Inc, BNDES, Casa &amp; Video,
       </tspan>
-      <tspan x="160" dy="30" class="contentSoft">
+      <tspan x="170" dy="44" class="contentSoft">
         Montreal, Grupo Multi, Polícia Federal • Projects: FAPES
       </tspan>
     </text>
 
-    <!-- Barra de status -->
-    <rect x="106" y="762" width="1188" height="58" fill="#d9c2ff"/>
-    <rect x="106.5" y="762.5" width="1187" height="57" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
-    <text x="128" y="799" class="font status">Ln 1, Col 1</text>
+    <!-- Status bar -->
+    <rect x="96" y="958" width="1608" height="70" fill="#d9c2ff"/>
+    <rect x="96.5" y="958.5" width="1607" height="69" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+    <text x="126" y="1002" class="font status">Ln 1, Col 1</text>
   </g>
 </svg>
