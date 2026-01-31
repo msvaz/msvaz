@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+  <defs>
+    <style>
+      .font {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        fill: #2b1646;
+      }
+      .pix { shape-rendering: crispEdges; }
+
+      /* UI */
+      .title  { font-size: 28px; font-weight: 700; }
+      .menu   { font-size: 20px; font-weight: 700; opacity: .9; }
+      .status { font-size: 18px; font-weight: 700; opacity: .85; }
+
+      /* Content */
+      .h1 { font-size: 26px; font-weight: 800; opacity: .95; }
+      .h2 { font-size: 18px; font-weight: 800; opacity: .92; }
+      .txt { font-size: 20px; font-weight: 750; opacity: .95; }
+      .txtSoft { font-size: 20px; font-weight: 750; opacity: .86; }
+    </style>
+  </defs>
+
+  <g class="pix">
+    <!-- Janela principal (reduzida) -->
+    <rect x="60" y="60" width="1280" height="730" fill="#c9a7ff"/>
+    <rect x="60.5" y="60.5" width="1279" height="729" fill="none" stroke="#2b1646" stroke-width="4"/>
+
+    <!-- Área interna -->
+    <rect x="72" y="72" width="1256" height="706" fill="#D9C2FF"/>
+    <rect x="72.5" y="72.5" width="1255" height="705" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.75"/>
+    <rect x="78.5" y="78.5" width="1243" height="693" fill="none" stroke="#4a2a6b" stroke-width="2" opacity="0.35"/>
+
+    <!-- Titlebar -->
+    <rect x="86" y="86" width="1228" height="74" fill="#b58bff"/>
+    <rect x="86.5" y="86.5" width="1227" height="73" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
+
+    <!-- Ícone -->
+    <rect x="106" y="104" width="38" height="38" fill="#e9dcff" stroke="#2b1646" stroke-width="2" opacity="0.95"/>
+    <rect x="115" y="113" width="20" height="20" fill="#2b1646" opacity="0.22"/>
+
+    <!-- Título -->
+    <text x="158" y="133" class="font title">notebler</text>
+
+    <!-- Botões (janela principal) -->
+    <g transform="translate(1140, 104)">
+      <rect x="0"  y="0" width="44" height="38" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="52" y="0" width="44" height="38" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="104" y="0" width="44" height="38" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
+      <rect x="14" y="28" width="16" height="3" fill="#2b1646" opacity="0.8"/>
+      <rect x="66" y="10" width="16" height="16" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.8"/>
+      <path d="M118 12 L134 28 M134 12 L118 28" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.85"/>
+    </g>
+
+    <!-- Menu bar -->
+    <rect x="86" y="160" width="1228" height="54" fill="#d9c2ff"/>
+    <rect x="86.5" y="160.5" width="1227" height="53" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <text x="112" y="197" class="font menu">File</text>
+    <text x="198" y="197" class="font menu">Edit</text>
+    <text x="284" y="197" class="font menu">Format</text>
+    <text x="406" y="197" class="font menu">View</text>
+
+    <!-- Área de conteúdo -->
+    <rect x="98" y="230" width="1204" height="500" fill="#A688AE"/>
+    <rect x="98.5" y="230.5" width="1203" height="499" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <!-- Coluna esquerda (texto) -->
+    <rect x="118" y="250" width="720" height="460" fill="#efe6ff" opacity="0.28"/>
+    <rect x="118.5" y="250.5" width="719" height="459" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.12"/>
+
+    <!-- TEXTO -->
+    <text x="150" y="300" class="font txt">
+      <tspan x="150" dy="0" class="h1">MY Certifications</tspan>
+      <tspan x="150" dy="54" class="h2">✦•······················•✦•······················•✦</tspan>
+
+      <tspan x="150" dy="70"></tspan>
+
+      <tspan x="150" dy="42">Oracle Certified Java Programmer -</tspan>
+
+      <tspan x="150" dy="54"></tspan>
+
+      <tspan x="150" dy="42">PM3 + Product School (Product, Discovery &amp; Strategy)</tspan>
+      <tspan x="150" dy="42">Scrum.org + Agile Alliance (Scrum / Kanban)</tspan>
+      <tspan x="150" dy="42">Google Academy (SEO + Google Ads) - IDEO</tspan>
+      <tspan x="150" dy="42">Independent courses (Design Thinking + UX Research)</tspan>
+    </text>
+
+    <!-- Janela webcam (direita) -->
+    <rect x="870" y="270" width="410" height="440" fill="#c9a7ff"/>
+    <rect x="870.5" y="270.5" width="409" height="439" fill="none" stroke="#2b1646" stroke-width="3" opacity="0.95"/>
+
+    <!-- Topo webcam -->
+    <rect x="880" y="280" width="390" height="56" fill="#b58bff"/>
+    <rect x="880.5" y="280.5" width="389" height="55" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.35"/>
+
+    <!-- REC + título -->
+    <circle cx="902" cy="308" r="8" fill="#ff3b3b" opacity="0.9"/>
+    <text x="918" y="316" class="font menu" style="fill:#ff3b3b;">REC</text>
+    <text x="980" y="316" class="font menu">webcam.exe</text>
+
+    <!-- Botões webcam (AJUSTADOS COM ÍCONES) -->
+    <g transform="translate(1150, 294)">
+      <!-- minimizar -->
+      <rect x="0" y="0" width="34" height="28" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="9" y="19" width="16" height="3" fill="#2b1646" opacity="0.85"/>
+
+      <!-- maximizar -->
+      <rect x="42" y="0" width="34" height="28" fill="#e9dcff" stroke="#2b1646" stroke-width="2"/>
+      <rect x="51" y="7" width="16" height="14" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.85"/>
+
+      <!-- fechar -->
+      <rect x="84" y="0" width="34" height="28" fill="#ff9ad6" stroke="#2b1646" stroke-width="2"/>
+      <path d="M93 7 L109 21 M109 7 L93 21" stroke="#2b1646" stroke-width="3" stroke-linecap="square" opacity="0.9"/>
+    </g>
+
+    <!-- Área do vídeo -->
+    <rect x="880" y="336" width="390" height="360" fill="#efe6ff" opacity="0.35"/>
+    <rect x="880.5" y="336.5" width="389" height="359" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+
+    <!-- Imagem da protagonista (salva como protagonista.png ao lado do SVG) -->
+    <image
+      x="888" y="344" width="374" height="344"
+      href="protagonista.png"
+      preserveAspectRatio="xMidYMid slice"
+    />
+
+    <!-- Barra inferior webcam (simples) -->
+    <rect x="880" y="646" width="390" height="50" fill="#2b1646" opacity="0.18"/>
+    <circle cx="1025" cy="672" r="16" fill="#ff3b3b" opacity="0.9"/>
+    <path d="M1017 672 C1020 665, 1030 665, 1033 672 C1030 679, 1020 679, 1017 672 Z" fill="#fff" opacity="0.9"/>
+
+    <!-- Status bar -->
+    <rect x="86" y="730" width="1228" height="48" fill="#d9c2ff"/>
+    <rect x="86.5" y="730.5" width="1227" height="47" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
+    <text x="112" y="762" class="font status">Ln 1, Col 1</text>
+  </g>
+</svg>
