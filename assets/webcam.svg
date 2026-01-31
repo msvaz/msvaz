@@ -118,10 +118,7 @@
 
     <!-- IMAGEM DA PROTAGONISTA (skills_blank.png na mesma pasta do SVG) -->
     <image
-      x="888" y="344" width="374" height="344"
-      href="skills_blank.png"
-      preserveAspectRatio="xMidYMid slice"
-    />
+      x="888" y="344" width="374" height="344" href="skills_blank.png"  preserveAspectRatio="xMidYMid slice"/>
 
     <!-- Barra inferior webcam -->
     <rect x="880" y="646" width="390" height="50" fill="#2b1646" opacity="0.18"/>
