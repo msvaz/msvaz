@@ -14,14 +14,14 @@
       .menu   { font-size: 22px; font-weight: 700; opacity: .9; }
       .status { font-size: 20px; font-weight: 700; opacity: .85; }
 
-      /* Conteúdo: maior e bem legível */
+      /* Conteúdo */
       .content     { font-size: 22px; font-weight: 700; opacity: .95; }
       .contentSoft { font-size: 22px; font-weight: 700; opacity: .82; }
     </style>
   </defs>
 
   <g class="pix">
-    <!-- JANELA: maior e mais larga -->
+    <!-- JANELA -->
     <rect x="70" y="60" width="1660" height="980" fill="#c9a7ff"/>
     <rect x="70.5" y="60.5" width="1659" height="979" fill="none" stroke="#2b1646" stroke-width="4"/>
 
@@ -61,45 +61,61 @@
     <text x="314" y="203" class="font menu">Format</text>
     <text x="450" y="203" class="font menu">View</text>
 
-    <!-- Conteúdo (ENORME) -->
+    <!-- Conteúdo -->
     <rect x="110" y="238" width="1580" height="720" fill="#A688AE"/>
     <rect x="110.5" y="238.5" width="1579" height="719" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
-    <!-- TEXTO (com o espaçamento que você mandou) -->
+    <!-- TEXTO -->
+    <!-- Margem interna: x=170 -->
+    <!-- Linha normal: dy=44 -->
+    <!-- *ESPACO* (pulo): dy=96 -->
     <text x="170" y="290" class="font content">
-      <tspan x="170" dy="0">About me  ༼ つ ◕_◕ ༽つ</tspan>
+      <!-- Linha 1 -->
+      <tspan x="170" dy="0">About me  ༼ つ ◕_◕ ༽つ  Full Stack Engineer</tspan>
 
-      <!-- espaço grande abaixo do título -->
-      <tspan x="170" dy="110"></tspan>
-
-      <tspan x="170" dy="44">Full Stack Engineer — 19+ years building systems that don’t panic in production.</tspan>
-
+      <!-- *ESPACO* -->
       <tspan x="170" dy="96"></tspan>
 
+      <!-- Linha 2 -->
+      <tspan x="170" dy="44">— 19+ years building systems that don’t panic in production.</tspan>
+
+      <!-- *ESPACO* -->
+      <tspan x="170" dy="96"></tspan>
+
+      <!-- Bullets -->
       <tspan x="170" dy="44">• APIs &amp; integrations</tspan>
       <tspan x="170" dy="44">• Clean architecture &amp; testing</tspan>
       <tspan x="170" dy="44">• Observability (logs / metrics / traces)</tspan>
       <tspan x="170" dy="44">• Deployments that behave</tspan>
 
+      <!-- *ESPACO* -->
       <tspan x="170" dy="96"></tspan>
 
+      <!-- Main game / Extra edge -->
       <tspan x="170" dy="44">Main game: Engineering (Java + Node.js)</tspan>
       <tspan x="170" dy="44">Extra edge: Product thinking — ship with problem, impact, and metrics in mind.</tspan>
 
+      <!-- *ESPACO* -->
       <tspan x="170" dy="96"></tspan>
 
+      <!-- Stack -->
       <tspan x="170" dy="44">Stack:</tspan>
       <tspan x="170" dy="44">• Full Stack: Java, JavaScript</tspan>
       <tspan x="170" dy="44">• Front: React, Next.js, Angular</tspan>
-      <tspan x="170" dy="44">• Back: Node.js (Express/NestJS), Java (Spring Boot) — REST/GraphQL</tspan>
-      <tspan x="170" dy="44">• Data: PostgreSQL, Redis, MongoDB — S3, DynamoDB, Supabase</tspan>
+      <tspan x="170" dy="44">• Back: Node.js (Express/NestJS), Java (Spring Boot)</tspan>
+      <tspan x="170" dy="44">• APIs: REST/GraphQL</tspan>
+      <tspan x="170" dy="44">• Data: PostgreSQL, Redis, MongoDB, S3, DynamoDB, Supabase</tspan>
 
+      <!-- *ESPACO* -->
       <tspan x="170" dy="96"></tspan>
 
+      <!-- Status -->
       <tspan x="170" dy="44">Status: Open to work • Founder @ TDG Labs</tspan>
 
+      <!-- *ESPACO* -->
       <tspan x="170" dy="96"></tspan>
 
+      <!-- Previous (quebrado pra caber) -->
       <tspan x="170" dy="44" class="contentSoft">
         Previous: Stone, Bradesco Seguros, Oi, Supergasbras, Optiva Inc, BNDES, Casa &amp; Video,
       </tspan>
