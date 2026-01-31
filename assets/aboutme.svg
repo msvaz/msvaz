@@ -65,11 +65,7 @@
     <rect x="110" y="238" width="1580" height="720" fill="#A688AE"/>
     <rect x="110.5" y="238.5" width="1579" height="719" fill="none" stroke="#2b1646" stroke-width="2" opacity="0.22"/>
 
-    <!-- TEXTO COM ESPAÇO DE VERDADE -->
-    <!-- Margem interna: x=170 -->
-    <!-- Espaço entre linhas: 44 -->
-    <!-- Espaço entre blocos: 96 -->
-    <!-- Espaço abaixo do título: 110 -->
+    <!-- TEXTO (com o espaçamento que você mandou) -->
     <text x="170" y="290" class="font content">
       <tspan x="170" dy="0">About me  ༼ つ ◕_◕ ༽つ</tspan>
 
