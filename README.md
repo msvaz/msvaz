@@ -9,7 +9,7 @@
 
 ![About Me](https://raw.githubusercontent.com/msvaz/msvaz/main/assets/aboutme.svg)
 
-![Certifications](https://raw.githubusercontent.com/msvaz/msvaz/main/assets/webcam.svg)
+![Certifications](https://raw.githubusercontent.com/msvaz/msvaz/main/assets/certifications_webcam_embedded.svg)
 
 
 
