@@ -7,7 +7,7 @@
 
 ![Legenda da Imagem](assets/Final_1stBanner.png)
 
-
+![About Me](https://raw.githubusercontent.com/msvaz/msvaz/main/assets/aboutme.svg)
 
 
 ## 👨‍💻 **About Me**
