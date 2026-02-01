@@ -29,20 +29,10 @@ jobs:
       - name: Recolor to custom palette
         run: |
           # Dark SVG - Trocando verdes do GitHub pelas suas cores roxas
-          sed -i \
-            -e 's/#0e4429/#520075/g' \
-            -e 's/#006d32/#8A00C4/g' \
-            -e 's/#26a641/#D796F2/g' \
-            -e 's/#39d353/#F200FF/g' \
-            dist/pacman-contribution-graph-dark.svg
+          sed -i 's/#0e4429/#520075/g; s/#006d32/#8A00C4/g; s/#26a641/#D796F2/g; s/#39d353/#F200FF/g' dist/pacman-contribution-graph-dark.svg
 
           # Light SVG - Ajuste de tons claros
-          sed -i \
-            -e 's/#9be9a8/#f3e8ff/g' \
-            -e 's/#30c463/#d8b4fe/g' \
-            -e 's/#30a14e/#c084fc/g' \
-            -e 's/#216e39/#ec4899/g' \
-            dist/pacman-contribution-graph.svg
+          sed -i 's/#9be9a8/#f3e8ff/g; s/#30c463/#d8b4fe/g; s/#30a14e/#c084fc/g; s/#216e39/#ec4899/g' dist/pacman-contribution-graph.svg
 
           # Renomeia para facilitar o uso no README
           cp dist/pacman-contribution-graph-dark.svg dist/my-pacman.svg
