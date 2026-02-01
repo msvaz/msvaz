@@ -161,10 +161,7 @@ What I do ᕙ༼ ,,ԾܫԾ,, ༽ᕗ  ?
 
 
 ## 🟪 **GitHub Analytics**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msvaz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msvaz&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
-</p>
+![GitHub Metrics](github-metrics.svg)
 
 ## 🟣 **LeetCode Statistics**
 <p align="center">
