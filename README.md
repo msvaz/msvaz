@@ -160,20 +160,13 @@ What I do ᕙ༼ ,,ԾܫԾ,, ༽ᕗ  ?
 </p>
 
 
-## ❤️ **Support My Work**
-If you like what I do, consider supporting me! ☕🚀
-
-<a href="https://ko-fi.com/seu_usuario" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
-</a>
-
-## 📈 **GitHub Analytics**
+## 🟪 **GitHub Analytics**
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=msvaz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&token=SEU_NOVO_TOKEN_AQUI" alt="GitHub Stats" width="32%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msvaz&layout=compact&theme=tokyonight&hide_border=true&token=SEU_NOVO_TOKEN_AQUI" alt="Most Used Languages" width="32%" />
 </p>
 
-## 🏆 **LeetCode Statistics**
+## 🟣 **LeetCode Statistics**
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?ext=heatmap" alt="LeetCode Heatmap" width="32%" />
