@@ -17,18 +17,30 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          user: msvaz  # Forçando o seu usuário
+          user: msvaz
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           
           filename: github-metrics.svg
-          base: header, repositories # Removi activity para evitar conflito de conta
+          # Base completa agora que o usuário está correto
+          base: header, activity, repositories
           
+          # Ativando Habits com travas de segurança
+          plugin_habits: yes
+          plugin_habits_from: 200       # Analisa apenas os últimos 200 eventos
+          plugin_habits_days: 14        # Foca nos últimos 14 dias para evitar commits "sujos"
+          plugin_habits_facts: yes      # Mostra curiosidades
+          plugin_habits_charts: yes     # Mostra os gráficos
+          
+          # Mantendo seus outros plugins
           plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
           plugin_isocalendar: yes
-          plugin_habits: no # Desligado até você trocar o token
           
-          # Estética
+          # Impede que a Action morra se o Habits ainda der algum soluço
+          plugins_errors_fatal: no
+
+          # Sua estética (Amber/Terminal)
           theme: dark
           config_timezone: America/Sao_Paulo
           config_padding: 12%
