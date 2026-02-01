@@ -1,40 +1,34 @@
 name: Metrics
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *" # todo dia
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
     steps:
       - name: Generate metrics
-        uses: lowlighter/metrics@v3.34
+        uses: lowlighter/metrics@latest
         with:
           user: msvaz
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          
-          filename: github-metrics.svg
-          plugins_errors_fatal: no
-          
-          # Removendo 'activity' e 'repositories' da base
-          # Isso impede o plugin de tentar ler os commits viciados
-          base: header
-          
-          # Plugins que funcionam (Línguas e Calendário)
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-          plugin_isocalendar: yes
-          
-          # Forçando o desligamento total do plugin teimoso
-          plugin_habits: no
-          plugin_habits_from: 0
 
-          # Estética (Amber/Terminal)
+          filename: github-metrics.svg
+          base: header, activity, repositories
+
+          plugin_languages: "yes"
+          plugin_languages_details: bytes-size, percentage
+          plugin_isocalendar: "yes"
+
+          # Desliga COMPLETAMENTE o Habits (não coloque NENHUM plugin_habits_* extra)
+          plugin_habits: "no"
+
+          # Estética Amber/Terminal
           theme: dark
           config_display: large
           config_timezone: America/Sao_Paulo
