@@ -11,28 +11,27 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
       - name: Generate metrics
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
+          # Configurações Principais
           user: msvaz
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg
           
-          # Força o workflow a ignorar erros de plugins quebrados
-          plugins_errors_fatal: false
-          
-          # Removemos 'activity' da base (é ela que chama o Habits por baixo dos panos)
+          # AQUI O SEGREDO: Removemos o 'activity' da base. 
+          # Sem activity, o Habits não tem o que analisar e não quebra.
           base: header, repositories
           
-          # Desativação explícita
-          plugin_habits: false
-          plugin_habits_facts: false
-          plugin_habits_charts: false
-
-          # Seus plugins que funcionam
+          # Forçamos o erro a não travar a Action
+          plugins_errors_fatal: no
+          
+          # Desativação agressiva do plugin fantasma
+          plugin_habits: no
+          plugin_habits_from: 0
+          
+          # Plugins que você realmente quer
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_isocalendar: yes
@@ -40,6 +39,7 @@ jobs:
           # Estética Amber/Terminal
           theme: dark
           config_timezone: America/Sao_Paulo
+          config_padding: 12%
           config_background: "0D1117"
           config_color: "C9D1D9"
           config_border: "1F2937"
