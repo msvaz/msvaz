@@ -15,21 +15,169 @@
 
 
 
----
 
-## 🚀 **Tech Stack & Tools**
-🎨 Frontend
-<p align="left"> <img src="https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-yellow?style=flat&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-blue?style=flat&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white" /> <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" /> </p>
-🔧 Backend
-<p align="left"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white" /> <img src="https://img.shields.io/badge/Java-orange?style=flat&logo=java&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" /> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white" /> <img src="https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white" /> <img src="https://img.shields.io/badge/REST-0096D6?style=flat&logo=rest&logoColor=white" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" /> <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" /> </p>
-🛢️ Databases
-<p align="left"> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white" /> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" /> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat&logo=amazonrds&logoColor=white" /> </p>
-☁️ Cloud & DevOps
-<p align="left"> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" /> <img src="https://img.shields.io/badge/GCP-4285F4?style=flat&logo=google-cloud&logoColor=white" /> <img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black" /> </p>
-📊 Product Management & Agile
-<p align="left"> <img src="https://img.shields.io/badge/JIRA-0052CC?style=flat&logo=jira&logoColor=white" /> <img src="https://img.shields.io/badge/Trello-0079BF?style=flat&logo=trello&logoColor=white" /> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white" /> <img src="https://img.shields.io/badge/Miro-FFCC00?style=flat&logo=miro&logoColor=black" /> </p>
----
+
+
+## Tech Stack & Tools
+
+<details open>
+  <summary>
+    <!-- Gradient icon: Full Stack -->
+    <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad-fs" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#8A00C4"/>
+          <stop offset="45%" stop-color="#F200FF"/>
+          <stop offset="75%" stop-color="#D796F2"/>
+          <stop offset="100%" stop-color="#520075"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#grad-fs)" d="M4 5h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H13v2h3v2H8v-2h3v-2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v9h16V7H4Z"/>
+    </svg>
+    <b>Full Stack</b> (Frontend + Backend)
+  </summary>
+
+  <br/>
+
+  <details>
+    <summary>
+      <!-- Gradient icon: Frontend -->
+      <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad-fe" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#8A00C4"/>
+            <stop offset="55%" stop-color="#F200FF"/>
+            <stop offset="100%" stop-color="#D796F2"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#grad-fe)" d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Zm0 2v8h16V8H4Z"/>
+      </svg>
+      <b>Frontend</b>
+    </summary>
+    <p align="left">
+      <img src="https://img.shields.io/badge/React-8A00C4?style=flat-square&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Next.js-520075?style=flat-square&logo=next.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/Angular-F200FF?style=flat-square&logo=angular&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-D796F2?style=flat-square&logo=typescript&logoColor=520075" />
+      <img src="https://img.shields.io/badge/JavaScript-8A00C4?style=flat-square&logo=javascript&logoColor=white" />
+      <img src="https://img.shields.io/badge/HTML5-520075?style=flat-square&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-F200FF?style=flat-square&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind-D796F2?style=flat-square&logo=tailwindcss&logoColor=520075" />
+    </p>
+  </details>
+  <details>
+    <summary>
+      <!-- Gradient icon: Backend -->
+      <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad-be" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#520075"/>
+            <stop offset="45%" stop-color="#8A00C4"/>
+            <stop offset="75%" stop-color="#F200FF"/>
+            <stop offset="100%" stop-color="#D796F2"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#grad-be)" d="M7 7h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Zm0 2v8h10V9H7Zm-5 1h2v4H2v-4Zm18 0h2v4h-2v-4Z"/>
+      </svg>
+      <b>Backend</b>
+    </summary>
+    <p align="left">
+      <img src="https://img.shields.io/badge/Java-8A00C4?style=flat-square&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spring%20Boot-520075?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-F200FF?style=flat-square&logo=node.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-520075?style=flat-square&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/NestJS-8A00C4?style=flat-square&logo=nestjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/REST-D796F2?style=flat-square&logo=fastapi&logoColor=520075" />
+      <img src="https://img.shields.io/badge/GraphQL-F200FF?style=flat-square&logo=graphql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kafka-520075?style=flat-square&logo=apachekafka&logoColor=white" />
+      <img src="https://img.shields.io/badge/RabbitMQ-8A00C4?style=flat-square&logo=rabbitmq&logoColor=white" />
+    </p>
+  </details>
+</details>
+<details>
+  <summary>
+    <!-- Gradient icon: Databases -->
+    <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad-db" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#D796F2"/>
+          <stop offset="40%" stop-color="#F200FF"/>
+          <stop offset="70%" stop-color="#8A00C4"/>
+          <stop offset="100%" stop-color="#520075"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#grad-db)" d="M12 2C7 2 3 3.79 3 6v12c0 2.21 4 4 9 4s9-1.79 9-4V6c0-2.21-4-4-9-4Zm0 2c4.42 0 7 .99 7 2s-2.58 2-7 2-7-.99-7-2 2.58-2 7-2Zm0 16c-4.42 0-7-.99-7-2v-2c1.66 1.06 4.73 1.5 7 1.5s5.34-.44 7-1.5v2c0 1.01-2.58 2-7 2Zm0-5c-4.42 0-7-.99-7-2V9c1.66 1.06 4.73 1.5 7 1.5s5.34-.44 7-1.5v4c0 1.01-2.58 2-7 2Z"/>
+    </svg>
+    <b>Databases & Storage</b>
+  </summary>
+
+  <p align="left">
+    <img src="https://img.shields.io/badge/PostgreSQL-8A00C4?style=flat-square&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Redis-F200FF?style=flat-square&logo=redis&logoColor=white" />
+    <img src="https://img.shields.io/badge/MongoDB-520075?style=flat-square&logo=mongodb&logoColor=white" />
+    <img src="https://img.shields.io/badge/S3-D796F2?style=flat-square&logo=amazons3&logoColor=520075" />
+    <img src="https://img.shields.io/badge/DynamoDB-8A00C4?style=flat-square&logo=amazondynamodb&logoColor=white" />
+    <img src="https://img.shields.io/badge/Supabase-F200FF?style=flat-square&logo=supabase&logoColor=white" />
+  </p>
+</details>
+<details>
+  <summary>
+    <!-- Gradient icon: Cloud/DevOps -->
+    <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad-cloud" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#8A00C4"/>
+          <stop offset="50%" stop-color="#D796F2"/>
+          <stop offset="100%" stop-color="#520075"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#grad-cloud)" d="M19 18H7a4 4 0 0 1-.5-7.97A6 6 0 0 1 18.9 9.5 3.5 3.5 0 0 1 19 18Zm-12-.5h12a2 2 0 0 0-.4-3.98l-.7-.07-.2-.68A4.5 4.5 0 0 0 9 10.4l-.55.2-.05.59A2.5 2.5 0 0 0 7 17.5Z"/>
+    </svg>
+    <b>Cloud & DevOps</b>
+  </summary>
+
+  <p align="left">
+    <img src="https://img.shields.io/badge/AWS-520075?style=flat-square&logo=amazonaws&logoColor=white" />
+    <img src="https://img.shields.io/badge/Docker-8A00C4?style=flat-square&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/Terraform-F200FF?style=flat-square&logo=terraform&logoColor=white" />
+    <img src="https://img.shields.io/badge/GCP-D796F2?style=flat-square&logo=googlecloud&logoColor=520075" />
+    <img src="https://img.shields.io/badge/Azure-8A00C4?style=flat-square&logo=microsoftazure&logoColor=white" />
+  </p>
+</details>
+<details>
+  <summary>
+    <!-- Gradient icon: Product -->
+    <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-3px; margin-right:6px" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad-pm" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#520075"/>
+          <stop offset="35%" stop-color="#8A00C4"/>
+          <stop offset="70%" stop-color="#F200FF"/>
+          <stop offset="100%" stop-color="#D796F2"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#grad-pm)" d="M4 4h16v2H4V4Zm0 4h10v2H4V8Zm0 4h16v2H4v-2Zm0 4h10v2H4v-2Z"/>
+    </svg>
+    <b>Product & Agile</b>
+  </summary>
+
+  <p align="left">
+    <img src="https://img.shields.io/badge/Jira-8A00C4?style=flat-square&logo=jira&logoColor=white" />
+    <img src="https://img.shields.io/badge/Trello-D796F2?style=flat-square&logo=trello&logoColor=520075" />
+    <img src="https://img.shields.io/badge/Notion-520075?style=flat-square&logo=notion&logoColor=white" />
+    <img src="https://img.shields.io/badge/Miro-F200FF?style=flat-square&logo=miro&logoColor=white" />
+  </p>
+</details>
+
+
+
+
+
+
+
+
+
+
 
 ## 📫 **Let's Connect**
 🎯 **What I Do** : 💻 Full Stack Development & 📊 Product Management
