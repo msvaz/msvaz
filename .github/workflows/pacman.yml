@@ -16,38 +16,43 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # 1. Checkout é essencial para criar o ambiente de trabalho
+      - uses: actions/checkout@v4
+
+      # 2. Gera os arquivos originais (verdes)
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      # Recolor: troca os "verdes do GitHub" por laranjas (mantém o fundo dark)
-      - name: Recolor to orange palette (dark + light)
+      # 3. Recolor: Aqui eu limpei os espaços extras e usei sua paleta roxa
+      - name: Recolor to custom palette
         run: |
-          # Dark SVG (paleta padrão do GitHub dark -> laranja)
+          # Dark SVG - Trocando verdes do GitHub pelas suas cores roxas
           sed -i \
-            -e 's/#0e4429/#2e1065/g' \
-            -e 's/#006d32/#6d28d9/g' \
-            -e 's/#26a641/#a855f7/g' \
-            -e 's/#39d353/#ec4899/g' \
-             dist/pacman-contribution-graph-dark.svg
+            -e 's/#0e4429/#520075/g' \
+            -e 's/#006d32/#8A00C4/g' \
+            -e 's/#26a641/#D796F2/g' \
+            -e 's/#39d353/#F200FF/g' \
+            dist/pacman-contribution-graph-dark.svg
 
-          # Light SVG (paleta padrão do GitHub light -> laranja)
-          sed -i \ 
-           -e 's/#9be9a8/#f3e8ff/g' \
-           -e 's/#30c463/#d8b4fe/g' \
-           -e 's/#30a14e/#c084fc/g' \
-           -e 's/#216e39/#ec4899/g' \
+          # Light SVG - Ajuste de tons claros
+          sed -i \
+            -e 's/#9be9a8/#f3e8ff/g' \
+            -e 's/#30c463/#d8b4fe/g' \
+            -e 's/#30a14e/#c084fc/g' \
+            -e 's/#216e39/#ec4899/g' \
             dist/pacman-contribution-graph.svg
 
-          # (Opcional) renomeia pros nomes que você já tava usando
+          # Renomeia para facilitar o uso no README
           cp dist/pacman-contribution-graph-dark.svg dist/my-pacman.svg
           cp dist/pacman-contribution-graph.svg dist/my-pacman-light.svg
 
+      # 4. Sobe para a branch 'output'
       - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
