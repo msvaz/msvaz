@@ -16,6 +16,7 @@
 ## Tech Stack & Tools
 
 <!-- FULL STACK (OPEN) - darkest -->
+<!--
 <details open>
   <summary>
     <img src="https://img.shields.io/badge/Full%20Stack-520075?style=flat-square&logo=github&logoColor=FFFFFF" />
@@ -44,9 +45,9 @@
     <img src="https://img.shields.io/badge/Supabase-520075?style=flat-square&logo=supabase&logoColor=FFFFFF" />
   </p>
 </details>
-
+-->
 <!-- BACKEND (CLOSED) - slightly lighter -->
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/Backend-8A00C4?style=flat-square&logo=node.js&logoColor=FFFFFF" />
   </summary>
@@ -62,10 +63,10 @@
     <img src="https://img.shields.io/badge/Kafka-8A00C4?style=flat-square&logo=apachekafka&logoColor=FFFFFF" />
     <img src="https://img.shields.io/badge/RabbitMQ-8A00C4?style=flat-square&logo=rabbitmq&logoColor=FFFFFF" />
   </p>
-</details>
+</details >
 
 <!-- FRONTEND (CLOSED) - brighter -->
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/Frontend-a020d6?style=flat-square&logo=react&logoColor=FFFFFF" />
   </summary>
@@ -83,7 +84,7 @@
 </details>
 
 <!-- EVERYTHING BELOW (CLOSED) - lightest -->
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/Databases-e350eb?style=flat-square&logo=postgresql&logoColor=520075" />
   </summary>
@@ -98,7 +99,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/Tests-e76fed?style=flat-square&logo=jest&logoColor=520075" />
   </summary>
@@ -112,7 +113,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/API%20Tooling-ed85f2?style=flat-square&logo=swagger&logoColor=520075" />
   </summary>
@@ -125,7 +126,7 @@
   </p>
 </details>
 
-<details>
+<details open>
   <summary>
     <img src="https://img.shields.io/badge/IDE%20%26%20Editors-D796F2?style=flat-square&logo=visualstudiocode&logoColor=520075" />
   </summary>
