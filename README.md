@@ -166,8 +166,7 @@ What I do ᕙ༼ ,,ԾܫԾ,, ༽ᕗ  ?
 
 ## 🟪 **GitHub Analytics**
 ![GitHub Metrics](github-metrics.svg)
-</br>
-</br>
+
 ## 🟣 **LeetCode Statistics**
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
