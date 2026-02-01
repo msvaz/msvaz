@@ -156,13 +156,18 @@ What I do ᕙ༼ ,,ԾܫԾ,, ༽ᕗ  ?
 <p>
   <a href="https://www.linkedin.com/in/marcia-svaz" target="_blank" > <img src="https://img.shields.io/badge/LinkedIn-520075?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://discord.gg/seu-discord" target="_blank"> <img src="https://img.shields.io/badge/Discord-F200FF?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="mailto:marciasantanavaz@gmail.com" > <img src="https://img.shields.io/badge/Gmail-D796F2?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="mailto:marciasantanavaz@gmail.com" > <img src="https://img.shields.io/badge/Gmail-e350eb?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+  <a href="SEU_LINK_DO_PORTFOLIO_AQUI" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Portfolio-D796F2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
+</a>
+
 </p>
 
 
 ## 🟪 **GitHub Analytics**
 ![GitHub Metrics](github-metrics.svg)
-
+</br>
+</br>
 ## 🟣 **LeetCode Statistics**
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/8NN4U9Ol7m?theme=dark&font=Baloo%20Bhaina%202" alt="LeetCode Stats" width="32%" />
