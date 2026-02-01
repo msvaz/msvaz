@@ -21,22 +21,20 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           
-          # 1. Mudança crucial: removemos 'activity' da base para parar de buscar os commits viciados
+          # 1. REMOVEMOS 'activity' para parar o erro de autor
           base: header, repositories
           
-          # 2. Desativação total e ignorar erros
+          # 2. DESATIVAMOS o plugin problemático (usando false puro)
           plugin_habits: false
-          plugin_errors_fatal: false
+          plugins_errors_fatal: false
           
-          # 3. Seus outros plugins
+          # 3. Plugins que funcionam bem
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_isocalendar: yes
-          filename: github-metrics.svg
 
-          # 4. Estética Amber/Terminal
+          # 4. Estética
           theme: dark
-          config_display: large
           config_timezone: America/Sao_Paulo
           config_padding: 12%
           config_background: "0D1117"
