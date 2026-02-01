@@ -1,0 +1,40 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # todo dia 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: dancarvofc
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
+          base: header, activity, repositories
+          plugin_languages: yes
+          plugin_isocalendar: yes
+          plugin_habits: yes
+
+      # Opcional: forçar cor tema (troca azul padrão por roxo)
+      - name: Force accent color (#8A00C4)
+        run: |
+          if [ -f github-metrics.svg ]; then
+            sed -i 's/#0366d6/#8A00C4/g' github-metrics.svg || true
+            sed -i 's/#58a6ff/#8A00C4/g' github-metrics.svg || true
+          fi
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git commit -m "chore: update metrics" || exit 0
+          git push
