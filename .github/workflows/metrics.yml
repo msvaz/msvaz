@@ -15,28 +15,31 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           user: msvaz
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           
-          # 1. REMOVEMOS 'activity' para parar o erro de autor
-          base: header, repositories
-          
-          # 2. DESATIVAMOS o plugin problemático (usando false puro)
-          plugin_habits: false
+          # Força o workflow a ignorar erros de plugins quebrados
           plugins_errors_fatal: false
           
-          # 3. Plugins que funcionam bem
+          # Removemos 'activity' da base (é ela que chama o Habits por baixo dos panos)
+          base: header, repositories
+          
+          # Desativação explícita
+          plugin_habits: false
+          plugin_habits_facts: false
+          plugin_habits_charts: false
+
+          # Seus plugins que funcionam
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_isocalendar: yes
 
-          # 4. Estética
+          # Estética Amber/Terminal
           theme: dark
           config_timezone: America/Sao_Paulo
-          config_padding: 12%
           config_background: "0D1117"
           config_color: "C9D1D9"
           config_border: "1F2937"
