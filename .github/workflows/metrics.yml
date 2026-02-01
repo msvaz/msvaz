@@ -44,11 +44,10 @@ jobs:
           theme: dark
           config_timezone: America/Sao_Paulo
           config_padding: 12%
-          config_background: "0D1117"
-          config_color: "C9D1D9"
-          config_border: "1F2937"
-          config_icon: "F59E0B"
-          config_title: "F59E0B"
-          config_subtitle: "9CA3AF"
-
+# Cores aplicadas
+          config_background: "520075"   # Roxo Profundo (Fundo)
+          config_title: "F200FF"        # Magenta Neon (Títulos principais)
+          config_icon: "F200FF"         # Magenta Neon (Ícones)
+          config_color: "D796F2"        # Lilás Claro (Textos e detalhes)
+          config_border: "8A00C4"       # Roxo Médio (Bordas e divisórias)
           output_action: commit
